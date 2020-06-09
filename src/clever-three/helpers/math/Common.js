@@ -5,6 +5,11 @@ const radian = 180.0 / Math.PI //  180 / π
 // ===========================================================================
 
 // Common Math functions =====================================================
+/**
+ * Checks if number is a non round float (1.0 will return false)
+ * @param {number} n Number to be ckecked
+ * @return {boolean}
+ */
 export const isFloat = (n) => {
   return (
     ('.'.indexOf(n.toString())) &&
@@ -15,6 +20,11 @@ export const isFloat = (n) => {
   )
 }
 
+/**
+ * Checks if number is a float (1.0 will return true)
+ * @param {number} n Number to be ckecked
+ * @return {boolean}
+ */
 export const isAnyFloat = (n) => {
   return (
     ('.'.indexOf(n.toString())) &&
@@ -24,6 +34,13 @@ export const isAnyFloat = (n) => {
   )
 }
 
+/**
+ * Returns a normalized value (between -1.0 and 1.0) from the provided number
+ * given its provided maximum value.
+ * @param {number} n Value to be normalized
+ * @param {number} max Maximum value that the provided number can be
+ * @return {number}
+ */
 export const normalize = (n, max) => {
   return ((n / max) - 0.5) * 2.0
 }
