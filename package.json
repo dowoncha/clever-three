@@ -5,6 +5,14 @@
   "main": "./src/clever-three",
   "author": "Marco Gomez",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mgzme/clever-three/issues"
+  },
+  "homepage": "https://github.com/mgzme/clever-three",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgzme/clever-three.git"
+  },
   "devDependencies": {
     "three": "^0.117.1",
     "eslint": "^6.8.0",
