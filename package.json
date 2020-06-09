@@ -2,7 +2,7 @@
   "name": "clever-three",
   "version": "0.001",
   "description": "Clever Three",
-  "main": "index.js",
+  "main": "./src/clever-three",
   "author": "Marco Gomez",
   "license": "MIT",
   "devDependencies": {
