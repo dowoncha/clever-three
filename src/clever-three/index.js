@@ -1,6 +1,6 @@
 export {
   pi, tau, tdPi, halfPi, phi, rPhi, rPhi2, gAng, ttp, ssp, stp, radian,
-  degrees, tEasings, isFloat, isAnyFloat, normalize, normalizeMinMax, mod,
+  degrees, tEasings, isInt, normalize, normalizeMinMax, mod,
   clamp, notCloseEnough, oscillate, round, ease, easeInSine, easeOutSine,
   easeInQuad, easeOutQuad, degToRad, radToDeg, randomRange, intRandomRange,
   lerp, mix, coinFlip, polar, cartesianToSpherical, sphericalToCartesian,

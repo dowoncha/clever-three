@@ -155,7 +155,7 @@ export {
 export { tEasings } from './TEasings'
 
 export {
-  isFloat, isAnyFloat, normalize, normalizeMinMax, mod, clamp, notCloseEnough,
+  isInt, normalize, normalizeMinMax, mod, clamp, notCloseEnough,
   oscillate, round, ease, easeInSine, easeOutSine, easeInQuad, easeOutQuad,
   degToRad, radToDeg, randomRange, intRandomRange, lerp, mix, coinFlip,
   polar, cartesianToSpherical, sphericalToCartesian, fibonacciSphere, avgArr,
